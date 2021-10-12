@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class='columns'>
+
+        <div class="container" draggable="true">
+            <div class='column' id='column-1'>
+                <h1 contenteditable="true">Column-1</h1>
+                <div class='card' draggable="true" id='card-1-1'>
+                    <div class='content'>
+                        <p class='text' contenteditable="true">Sample Text</p>
+                    </div>
+                    <div class='options'>
+                        <div class='delete'>
+                            delete
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class='new-card'>New Card</button>
+        </div>
+        </div>
+    </section>
+    <button class='new-column'>New Column</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
